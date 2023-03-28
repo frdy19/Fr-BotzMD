@@ -23,28 +23,28 @@ let teksnomor = (
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
 let teksbio = `
-┆⫹⫺ 💌 Nama : Zyko MD
+┆⫹⫺ 💌 Nama : Ferdi Firmansyah
 ┆⫹⫺ ♂️ Gender : Pria
 ┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 21 12 2004
-┆⫹⫺ 🎨 Umur : 18
-┆⫹⫺ 🧮 Kelas : XI
-┆⫹⫺ 🧩 Hobby : Modifikasi Perangkat Lunak
+┆⫹⫺ ⏰ Tanggal lahir : 07 08 2005
+┆⫹⫺ 🎨 Umur : 17
+┆⫹⫺ 🧮 Kelas : 2 SMA
+┆⫹⫺ 🧩 Hobby : Ngoding + Basket
 ┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Sukabumi
+┆⫹⫺ 🗺️ Tinggal : Indonesia, Banjarmasin
 ┆⫹⫺ ${sig}
 └––––––––––––·•
 `
 let ppown2 = await conn.profilePictureUrl(nomorown1 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio2 = `┆⫹⫺ 💌 Nama : Harum Mellati
-┆⫹⫺ ♂️ Gender : Wanita
-┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 27 - 02- 2006
-┆⫹⫺ 🎨 Umur : 17
-┆⫹⫺ 🧮 Kelas : XI
-┆⫹⫺ 🧩 Hobby : Banyak
-┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Bogor
+let teksbio2 = `┆⫹⫺ 💌 Nama : -
+┆⫹⫺ ♂️ Gender : -
+┆⫹⫺ 🕋 Agama : -
+┆⫹⫺ ⏰ Tanggal lahir : -
+┆⫹⫺ 🎨 Umur : -
+┆⫹⫺ 🧮 Kelas : -
+┆⫹⫺ 🧩 Hobby : -
+┆⫹⫺ 💬 Sifat : -
+┆⫹⫺ 🗺️ Tinggal : -
 ┆⫹⫺ ${sigpcr}
 └––––––––––––·•
 `
@@ -54,7 +54,6 @@ let teksbio2 = `┆⫹⫺ 💌 Nama : Harum Mellati
 𐚀 Owner Berhak Blcok Siapa Saja
 𐚀 Gak Respon Kalo Minta Sc
 𐚀 Etikanya DiPake
-𐚀 Chat Cewek Gw Aneh-Aneh Gw Buat Tidur LU
 𐚀 Chat Aneh Gk Jelas Ban/Block 
 𐚀 Call Blcok\n⫹ Ketik *.rules* Untuk Melihat Rules Selengkapnya⫺`
 const sections = 
@@ -63,8 +62,8 @@ title: `⫹⫺ OTHER ⫹⫺`,
 rows: [
 {title: "⸙ Kontak", rowId: ".owner kontak"},
 {title: "⸙ Nomor", rowId: ".owner nomor"},
-{title: "⸙ Biodata Ziro MD", rowId: ".owner bio"},
-{title: "⸙ Biodata Ziro MD", rowId: ".owner bio2"},
+{title: "⸙ Biodata 𝙁𝙚𝙧𝙙𝙞 𝙁𝙞𝙧𝙢𝙖𝙣𝙨𝙮𝙖𝙝", rowId: ".owner bio"},
+{title: "⸙ Biodata -", rowId: ".owner bio2"},
 {title: "⸙ Pengembang", rowId: ".ziro"},
 {title: "⸙ Creator", rowId: ".ziro1"},
 {title: "⸙ Script", rowId: ".sc"},
