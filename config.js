@@ -55,11 +55,11 @@ global.tautanwa = 'https://wa.me/62823504965328'
 global.wame = 'https://wa.me/62823504965328' // kalau gk punya bisa ganti pake gini wa.me/6283133329293
 
 /*============== PAYMENT ==============*/
-global.pdana = '-'
-global.povo = '-'
+global.pdana = '082350496532'
+global.povo = '082350496532'
 global.pgopay = '-'
 global.plinkaja = '-' 
-global.ppulsa = '-'
+global.ppulsa = '082350496532'
 global.ppulsa2 = '-'
 global.psaweria = '-'
 
@@ -67,9 +67,9 @@ global.psaweria = '-'
 global.nomorbot = '62823504965322'
 global.nomorown = '62823504965328'
 global.nomorown1 = '62823504965328' //pake No Pacar lo Juga Boleh
-global.namebot = 'ꜰʀ-ʙᴏᴛᴢᴍᴅ⚡'
-global.nameown = '𝙁𝙚𝙧𝙙𝙞 𝙁𝙞𝙧𝙢𝙖𝙣𝙨𝙮𝙖𝙝'
-global.nameown1 = '𝙁𝙚𝙧𝙙𝙞 𝙁𝙞𝙧𝙢𝙖𝙣𝙨𝙮𝙖𝙝' //Pake Nama Pacar Lo Juga Boleh
+global.namebot = '𝗟𝗲𝗴𝗮𝗰𝘆 - 𝗕𝗼𝘁𝘇'
+global.nameown = '𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵'
+global.nameown1 = '𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵' //Pake Nama Pacar Lo Juga Boleh
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ INFO BIO DATA OWN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
 global.sig = '📷 ɪɴsᴛᴀɢʀᴀᴍ : https://instagram.com/' // ig lo
@@ -80,7 +80,7 @@ global.namagithub = 'https://github.com/frdy19' // nama github lu
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['62823504965328', '𝙁𝙚𝙧𝙙𝙞 𝙁𝙞𝙧𝙢𝙖𝙣𝙨𝙮𝙖𝙝', true],
+  ['62823504965328', '𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
@@ -91,16 +91,16 @@ global.mods = []
 global.prems = [] 
 
 /*============== WATERMARK ==============*/
-global.gcname = '𝙁𝙚𝙧𝙙𝙞 𝙁𝙞𝙧𝙢𝙖𝙣𝙨𝙮𝙖𝙝⚡' //nama group kalian
+global.gcname = '𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵' //nama group kalian
 global.readMore = readMore
-global.wm = '                「 ꜰʀ-ʙᴏᴛᴢᴍᴅ⚡ 」'
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ꜰʀ-ʙᴏᴛᴢᴍᴅ⚡ ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ꜰʀ-ʙᴏᴛᴢᴍᴅ⚡ '
+global.wm = '                「 𝗟𝗲𝗴𝗮𝗰𝘆 - 𝗠𝗗⚡ 」'
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝗟𝗲𝗴𝗮𝗰𝘆 - 𝗕𝗼𝘁𝘇˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝗟𝗲𝗴𝗮𝗰𝘆 𝗕𝗼𝘁𝘇 𝗠𝗗'
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By 𝙁𝙚𝙧𝙙𝙞 ⚡`
-global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '              「 ꜰʀ-ʙᴏᴛᴢᴍᴅ⚡  あ」'
+global.titlebot = `⫹⫺ 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗕𝗼𝘁 | 𝗕𝘆 𝗙𝗲𝗿𝗱𝘆`
+global.packname = '☂︎ 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗕𝘆'
+global.author = '              「 𝗟𝗲𝗴𝗮𝗰𝘆 𝗠𝗗あ」'
 global.week = `${week} ${date}`
 global.wibb = `${wktuwib}`
 global.danied = pickRandom(["✘ 𝗘𝗿𝗼𝗿 𝟰𝟬𝟰",
@@ -109,8 +109,8 @@ global.danied = pickRandom(["✘ 𝗘𝗿𝗼𝗿 𝟰𝟬𝟰",
 ])
 
 /*============== STICKER WM ==============*/
-global.stickpack = '𝙁𝙧-𝘽𝙤𝙩𝙯𝙈𝘿⚡'
-global.stickauth = `By ©𝙁𝙚𝙧𝙙𝙞 𝙁𝙞𝙧𝙢𝙖𝙣𝙨𝙮𝙖𝙝⚡`
+global.stickpack = '𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗕𝗼𝘁𝘇 𝗟𝗲𝗴𝗮𝗰𝘆'
+global.stickauth = `𝗕𝘆 ©𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵`
  
 /*============== LOGO ==============*/
 global.fotonya1 = 'https://telegra.ph/file/6d36f1d039eec862597ff.jpg' 
@@ -142,7 +142,7 @@ global.dmenut = 'ଓ═┅═━–〈' //top
 global.dmenub = '┊↬' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
-global.dashmenu = pickRandom(["┅═┅═❏ *DASHBOARD* ❏═┅═┅", "☰ *D A S B O A R D* ☰"])
+global.dashmenu = pickRandom(["┅═┅═❏ *𝗗𝗔𝗦𝗛𝗕𝗢𝗔𝗥𝗗* ❏═┅═┅", "☰ *D A S B O A R D* ☰"])
 global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
 global.cmenub = '┊✦ ' //body
@@ -164,9 +164,9 @@ global.eror = 'Mohon Maaf Server Kami Sedang Error!'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.benar = '𝙶𝚘𝚘𝚍 𝙹𝚘𝚋𝚋! ◕◡◕'
-global.salah = '𝙽𝚘𝚝 𝙱𝚊𝚍! ◕◠◕'
-global.dikit = "𝙳𝚒𝚔𝚒𝚝 𝙻𝚊𝚐𝚒,𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝!!"
+global.benar = '𝗚𝗼𝗼𝗱 𝗝𝗼𝗯'
+global.salah = '𝗡𝗼𝘁 𝗕𝗮𝗱'
+global.dikit = "𝗗𝗶𝗸𝗶𝘁 𝗹𝗮𝗴𝗶,𝗦𝗲𝗺𝗮𝗻𝗴𝗮𝘁 !!"
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ Emot ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -4217,7 +4217,7 @@ global.mdbot = [
 
 global.flaaa = fla
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/"
+global.urlnya = "-"
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
 global.phn = '0823-5049-6532'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺

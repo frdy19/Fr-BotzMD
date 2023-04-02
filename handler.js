@@ -907,7 +907,7 @@ export async function handler(chatUpdate) {
                 if (!('antiToxic' in chat)) 
                     chat.antiToxic = false
                 if (!('anticall' in chat))
-                    chat.anticall = false
+                    chat.anticall = true
                 if (!('welcome' in chat))
                     chat.welcome = true
                 if (!('autoJoin' in chat))
@@ -950,7 +950,7 @@ export async function handler(chatUpdate) {
                     virtex: false,
                     autoJoin: false,
 	                antiToxic: false,
-	                anticall: false,
+	                anticall: true,
                     welcome: true,
                     detect: false,
                     sWelcome: '',
@@ -1025,7 +1025,7 @@ export async function handler(chatUpdate) {
         if (opts['pconly'] && m.chat.endsWith('g.us'))
             return
         if (opts['gconly'] && !m.chat.endsWith('g.us') && !m.fromMe)
-            return conn.reply(m.chat, 'Bot Sedang Dalam Mode Khusus GGonly\nMasuk Gc Biar Bisa Pake\n[ Link ]\nhttps://chat.whatsapp.com/INq67rkTp8iAwiVvLOFAYH',)
+            return conn.reply(m.chat, 'Bot Sedang Dalam Mode Khusus GGonly\nMasuk Gc Biar Bisa Pake\n[ Link ]\nhttps://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',)
         if (opts['swonly'] && m.chat !== 'status@broadcast')
             return
         if (typeof m.text !== 'string')

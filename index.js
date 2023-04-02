@@ -16,12 +16,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say("ZiroBotz MD", {
+say("Legacy Botz MD", {
   font: "shade",
   align: "center",
   colors: ["red", "yellow"]
 })
-say("🕖 ZiroBotz MD V11 By @zykobotz ", {
+say("🕖 LegacyBot MD V11 By @FerdyFrmnsyh ", {
   font: "console",
   align: "center",
   colors: ["green"]
@@ -92,4 +92,4 @@ function start(file) {
 }
 
 start('main.js')
-require("http").createServer((_, res) => res.end("ZYKO BOTZ MD")).listen(8080)
+require("http").createServer((_, res) => res.end("LEGACY BOTZ MD")).listen(8080)
