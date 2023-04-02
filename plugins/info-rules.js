@@ -40,10 +40,9 @@ _Cara penggunaan ${global.namebot} Agar terhindar dari Suspand_
 • *Note:*
 1. Jika ada yang menjual/beli/sewa bot atas nomor ini, harap segera hubungi owner!
 2. Jika ingin donasi bisa langsung aja ya social payment Dana 
-3. jika ingin membeli scrip bot Whatsapp bisa langsung Hubungi ke no Whatsapp:wa.me/6283133329293
 3. Ketik .sewa Jika Ingin SewaBot 
 
-•Agar terhindar dari Suspand/Ban kalian bisa membaca juga di Peraturan kami.
+•Agar terhindar dari Suspend/Ban kalian bisa membaca juga di Peraturan kami.
 
 •Perlu kalian tahu bahwa kami menjaga Privasi dari data-data anda!
 
@@ -59,9 +58,9 @@ _Cara penggunaan ${global.namebot} Agar terhindar dari Suspand_
 ┆⟥⟤ ➠ ${global.bottime}
 └─┈⟅
 ${global.botdate}`
-let nth = `☰⟥⟝⟞⟝❨ *Rᴜʟᴇs Mʏ Bᴏᴛ* ❩⟞⟝⟞⟤☰`
-conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ruls} ` + `${global.namebot}`, nth, rules, 'Menu', '.menuv1', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/kabulsaputra21',
+let nth = `𝗥𝗨𝗟𝗘𝗦 𝗕𝗢𝗧`
+conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ruls} ` + `${global.namebot}`, nth, rules, 'ᴍᴇɴᴜ', '.menuv1', 'ᴏᴡɴᴇʀ', '.owner', 'ᴄʀᴇsɪᴛ', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',
     mediaType: 2, 
     description: sig,
     title: `Hai 👋, ${name}`,

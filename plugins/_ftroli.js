@@ -14,7 +14,7 @@ const {
                             itemCount : 404,
                             itemCoun : 404,
                             surface : 404,
-                            message: '𝙰 𝚛 𝚊 - 𝙰 𝚛 𝚊',
+                            message: '𝗟𝗲𝗴𝗮𝗰𝘆 𝗠𝗗',
                             orderTitle: 'B',
                             thumbnail: fs.readFileSync('./thumbnail.jpg'), 
                             sellerJid: '0@s.whatsapp.net'

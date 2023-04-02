@@ -6,13 +6,13 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
  let tag = `@${m.sender.split('@')[0]}`
  let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999, status: 1, surface: 1, message: `${command} ${type}`, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Ziro MD⸙;;;\nFN:Zyko MD⸙\nORG:Zyko MD⸙\nTITLE:\nitem1.TEL;waid=6281228070013:+62 812-2807-0013\nitem1.X-ABLabel:Ziro MD⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Ziro MD⸙\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵⸙;;;\nFN:𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵⸙\nORG:𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵⸙\nTITLE:\nitem1.TEL;waid=62823504965328:+62 823-5049-65328\nitem1.X-ABLabel:𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵⸙\nX-WA-BIZ-DESCRIPTION:${htjava} 𝗝𝗮𝗻𝗴𝗮𝗻 𝗹𝘂𝗽𝗮 𝗦𝗮𝘃𝗲 𝘆𝗮 𝗯𝗮𝗻𝗵!!\nX-WA-BIZ-NAME:𝗙𝗲𝗿𝗱𝘆 𝗙𝗿𝗺𝗻𝘀𝘆𝗵⸙\nEND:VCARD`
 //------- NOMOR
  const pp = fs.readFileSync('./media/menu.jpg')
   let nowner1 = `${nomorown.split`@`[0]}@s.whatsapp.net`
   let nowner2 = `${nomorown1.split`@`[0]}@s.whatsapp.net`
 let teksnomor = (
-`╳ ── ◸ *Mʏ Oᴡɴᴇʀ* ◹ ── ╳
+`╳ ── ◸ 𝗠𝘆 𝗢𝘄𝗻𝗲𝗿 ◹ ── ╳
 ⟣⟮ *${nameown}* ⟯⟢
 ⟬ @${nomorown.split`@`[0]} ⟭
 ┆
@@ -23,15 +23,15 @@ let teksnomor = (
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
 let teksbio = `
-┆⫹⫺ 💌 Nama : Ferdi Firmansyah
-┆⫹⫺ ♂️ Gender : Pria
-┆⫹⫺ 🕋 Agama : Islam
+┆⫹⫺ 💌 Nama : 𝗙𝗲𝗿𝗱𝘆 𝗙𝗶𝗿𝗺𝗮𝗻𝘀𝘆𝗮𝗵
+┆⫹⫺ ♂️ Gender : 𝗟𝗮𝗸𝗶 𝗟𝗮𝗸𝗶
+┆⫹⫺ 🕋 Agama : 𝗜𝘀𝗹𝗮𝗺
 ┆⫹⫺ ⏰ Tanggal lahir : 07 08 2005
 ┆⫹⫺ 🎨 Umur : 17
-┆⫹⫺ 🧮 Kelas : 2 SMA
-┆⫹⫺ 🧩 Hobby : Ngoding + Basket
-┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Banjarmasin
+┆⫹⫺ 🧮 Kelas : 2 𝗦𝗠𝗔
+┆⫹⫺ 🧩 Hobby : 𝗡𝗴𝗼𝗱𝗶𝗻𝗴, 𝗕𝗮𝘀𝗸𝗲𝘁
+┆⫹⫺ 💬 Sifat : -
+┆⫹⫺ 🗺️ Tinggal : 𝗜𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮, 𝗕𝗮𝗻𝗷𝗮𝗿𝗺𝗮𝘀𝗶𝗻
 ┆⫹⫺ ${sig}
 └––––––––––––·•
 `
@@ -48,37 +48,37 @@ let teksbio2 = `┆⫹⫺ 💌 Nama : -
 ┆⫹⫺ ${sigpcr}
 └––––––––––––·•
 `
-  let tek = `⟣⟞⟚⟝ 〨⎣ *Nᴏᴛᴇ* ⎤〨 ⟞⟚⟝⟢
+  let tek = `𝗖𝗮𝘁𝗮𝘁𝗮𝗻 𝗢𝘄𝗻𝗲𝗿
 ┆
-𐚀 Owner Tidak Respon Chat Aneh
-𐚀 Owner Berhak Blcok Siapa Saja
-𐚀 Gak Respon Kalo Minta Sc
-𐚀 Etikanya DiPake
-𐚀 Chat Aneh Gk Jelas Ban/Block 
-𐚀 Call Blcok\n⫹ Ketik *.rules* Untuk Melihat Rules Selengkapnya⫺`
+𐚀 ᴏᴡɴᴇʀ ᴛɪᴅᴀᴋ ʀᴇsᴘᴏɴ ᴄʜᴀᴛ ᴀɴᴇʜ
+𐚀 ᴏᴡɴᴇʀ ʙᴇʀʜᴀᴋ ʙʟᴏᴄᴋ sɪᴀᴘᴀ sᴀᴊᴀ
+𐚀 ᴋᴀʟᴀᴜ ᴍᴀᴜ sᴀᴠᴇ ɢᴜɴᴀᴋᴀɴ ᴅᴀᴛᴀ ᴅɪʀɪ ᴀsʟɪ
+𐚀 ᴇᴛɪᴋᴀ ᴅɪᴘᴀᴋᴀɪ
+𐚀 ɢᴀ ᴜsᴀʜ sᴘᴀᴍ ᴋᴀʟᴀᴜ ɢᴋ ᴅɪʀᴇsᴘᴏɴ
+𐚀 ᴛᴇʟᴘ/ᴠᴄ? ʙʟᴏᴄᴋ\nKetik *.rules* Untuk Melihat Rules Selengkapnya`
 const sections = 
 [{
-title: `⫹⫺ OTHER ⫹⫺`,
+title: `⫹⫺ 𝗢𝘁𝗵𝗲𝗿 ⫹⫺`,
 rows: [
-{title: "⸙ Kontak", rowId: ".owner kontak"},
-{title: "⸙ Nomor", rowId: ".owner nomor"},
-{title: "⸙ Biodata 𝙁𝙚𝙧𝙙𝙞 𝙁𝙞𝙧𝙢𝙖𝙣𝙨𝙮𝙖𝙝", rowId: ".owner bio"},
-{title: "⸙ Biodata -", rowId: ".owner bio2"},
+{title: "𝗞𝗼𝗻𝘁𝗮𝗸", rowId: ".owner kontak"},
+{title: "𝗡𝗼𝗺𝗼𝗿", rowId: ".owner nomor"},
+{title: "⸙ 𝗕𝗶𝗼𝗱𝗮𝘁𝗮 𝗙𝗲𝗿𝗱𝘆 𝗙𝗶𝗿𝗺𝗮𝗻𝘀𝘆𝗮𝗵", rowId: ".owner bio"},
+{title: "-", rowId: ".owner bio2"},
 {title: "⸙ Pengembang", rowId: ".ziro"},
-{title: "⸙ Creator", rowId: ".ziro1"},
-{title: "⸙ Script", rowId: ".sc"},
+{title: "𝗖𝗿𝗲𝗮𝘁𝗼𝗿", rowId: ".ziro1"},
+{title: "𝗦𝗰𝗿𝗶𝗽𝘁", rowId: ".sc"},
 ]}, {
-title: `⬔ SUPPORT ME ⬔`,
+title: `𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗠𝗲`,
 rows: [
-{title: "〠 Donasi", rowId: ".owner nomor"},
-{title: "〠 Sewa", rowId: ".sewa"},
-{title: "〠 Buy Premium", rowId: ".premium"},
+{title: "𝗗𝗼𝗻𝗮𝘁𝗲", rowId: ".owner nomor"},
+{title: "𝗦𝗲𝘄𝗮", rowId: ".sewa"},
+{title: "𝗕𝘂𝘆 𝗣𝗿𝗲𝗺𝗶𝘂𝗺", rowId: ".premium"},
 ]},]
 const listMessage = {
   text: tek,
   footer: wm,
   title: null,
-  buttonText: "Click !!",
+  buttonText: "𝗖𝗹𝗶𝗰𝗸 𝗛𝗲𝗿𝗲",
   sections
 }
   try {
@@ -96,8 +96,8 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
                 ['Sewa Bot', `${usedPrefix}sewa`],
                 ['Menu', `${usedPrefix}menu`]
             ], m, { contextInfo: { mentionedJid: [nomorown] }})*/
- conn.send2ButtonImg(m.chat, fs.readFileSync('./media/menu.jpg').buffer, teksnomor, `Halo ${tag}\nIᴛᴜ Oᴡɴᴇʀ Kᴜ⫺⫰⫹\n` + botdate, `Sewa Bot`, `.sewa`, 'Menu', `.menu`, ftroli, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/kabulsaputra21',
+ conn.send2ButtonImg(m.chat, fs.readFileSync('./media/menu.jpg').buffer, teksnomor, `ʜᴀʟᴏ ${tag}\nɪᴛᴜ ᴏᴡɴᴇʀ ᴋᴜ\n` + botdate, `sᴇᴡᴀ ʙᴏᴛ`, `.sewa`, 'ᴍᴇɴᴜ', `.menu`, ftroli, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',
     mediaType: 2, 
     description: sgc,
     title: "Join Sini Juga Cuy!",
@@ -110,17 +110,17 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
             case 'bio':
           //conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
 
-   conn.sendButton(m.chat, '┍┈༺ *BioData ZykoMD* ༻', teksbio, ppown, [
-                ['Sewa', `${usedPrefix}sewa`],
-                ['Menu', `${usedPrefix}menu`]
+   conn.sendButton(m.chat, '𝗕𝗶𝗼𝗱𝗮𝘁𝗮 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗕𝗼𝘁', teksbio, ppown, [
+                ['sᴇᴡᴀ', `${usedPrefix}sewa`],
+                ['ᴍᴇɴᴜ', `${usedPrefix}menu`]
             ], m)
             break
                         case 'bio2':
           //conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
 
-          conn.sendButton(m.chat, '┍┈༺ *BioData LisaAmelia* ༻', teksbio2, ppown2, [
-                ['Sewa', `${usedPrefix}sewa`],
-                ['Menu', `${usedPrefix}menu`]
+          conn.sendButton(m.chat, '-', teksbio2, ppown2, [
+                ['sᴇᴡᴀ', `${usedPrefix}sewa`],
+                ['ᴍᴇɴᴜ', `${usedPrefix}menu`]
             ], m)
             break
             

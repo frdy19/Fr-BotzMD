@@ -18,13 +18,13 @@ await conn.send2ButtonDoc(m.chat, cap, botdate, 'Menu', '.menuv2', 'Sewa', '.sew
 			contextInfo: {
 				forwardingScore: fsizedoc,
 				externalAdReply: {
-                    body: '© Zyko MD',
+                    body: '© 𝗟𝗲𝗴𝗮𝗰𝘆 𝗠𝗱',
     containsAutoReply: true,
     mediaType: 1,
     mediaUrl: hwaifu.getRandom(), 
     renderLargerThumbnail: true,
     showAdAttribution: true,
-    sourceId: '© Zykobotz MD',
+    sourceId: '© 𝗟𝗲𝗴𝗮𝗰𝘆 𝗕𝗼𝘁𝘇',
     sourceType: 'PDF',
     previewType: 'PDF',
     sourceUrl: sgc,

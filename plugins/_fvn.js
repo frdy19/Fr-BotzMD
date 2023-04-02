@@ -8,7 +8,7 @@ const anu = {
 	 key: { 
           fromMe: false,
 	      participant: `6285736178354@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6285736178354-1610340626@g.us" } : {}) 
+	 { remoteJid: "1234567890-1610340626@g.us" } : {}) 
                 },
 	 message: { 
 		"audioMessage": {

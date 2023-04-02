@@ -12,7 +12,7 @@ let stiker = await sticker(null, global.API(`${pickRandom(stikerhuuu)}`), global
           showAdAttribution: true,
     mediaUrl: tautanwa,
     mediaType: tautanwa,
-    description: 'SUBCRIBE YT', 
+    description: '𝗟𝗲𝗴𝗮𝗰𝘆 𝗠𝗗', 
     title: 'Hai, ' + name + ' ' + ucapan,
     body: bottime,
     thumbnail: await(await fetch(zykomd)).buffer(),

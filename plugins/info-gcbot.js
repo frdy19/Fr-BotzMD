@@ -9,7 +9,7 @@ let str = `
 `
 
 conn.sendButtonDoc(m.chat, str, wm,' ᴏᴋᴇ ','huuu', m, { contextInfo: { externalAdReply: { showAdAttribution: false,
-    mediaUrl: 'https://chat.whatsapp.com/CrVpOBoWyi5Aj1l1LqPlMW',
+    mediaUrl: 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',
     mediaType: 2, 
     description: sgc,
     title: '≪ Jᴏɪɴ Sɪɴɪ Cᴜʏ ⋟',

@@ -14,16 +14,16 @@ let { limit, role, level, exp, premiumTime } = db.data.users[m.sender]
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   let bug = `
 █▓▒░►───────═❏ 
-█❏ *Name:* ${name}
-█❏ *Tag:* ${tag}
-█❏ *Status:* ${premiumTime > 0 ? 'Premium' : 'Free user' }
-█❏ *Limit:* ${limit}
-█❏ *Role:* ${role}
-█❏ *Level:* ${level}
-█❏ *Xp:* ${exp}
+█❏ *ɴᴀᴍᴇ:* ${name}
+█❏ *ᴛᴀɢ:* ${tag}
+█❏ *sᴛᴀᴛᴜᴀ:* ${premiumTime > 0 ? 'Premium' : 'Free user' }
+█❏ *ʟɪᴍɪᴛ:* ${limit}
+█❏ *ʀᴏʟᴇ:* ${role}
+█❏ *ʟᴇᴠᴇʟ:* ${level}
+█❏ *xᴘ:* ${exp}
 █▓▒░►───────═❏
          
-╔════ ≪ °*Bug Emot*° ≫ ════╗
+╔════ ≪ °*𝕭𝖚𝖌 𝕰𝖒𝖔𝖙𝖊*° ≫ ════╗
 ║❏➣ ${usedPrefix}🌹 628xxxx
 ║❏➣ ${usedPrefix}🌻 628xxxx
 ║❏➣ ${usedPrefix}😎 628xxxx
@@ -45,21 +45,20 @@ let { limit, role, level, exp, premiumTime } = db.data.users[m.sender]
 ║❏➣ ${usedPrefix}🌹 628xxxx
 ╚════ ≪ °${nameown}° ≫ ════╝
 
-╔════ ≪ °*Bug Group*° ≫ ════╗
+╔════ ≪ °*𝕭𝖚𝖌 𝕲𝖗𝖔𝖚𝖕*° ≫ ════╗
 ║❏➣ ${usedPrefix}buggc 62888@g.us
 ║❏➣ ${usedPrefix}buggcrash 62888@g.us
 ╚════ ≪ °${nameown}° ≫ ════╝
 
-By : ZiroBotz-MD
-YT cannel : Ziro-MD OFFICIAL ⚡
-*Note:* Jangan Salah Gunakan Bug Botz InI
+𝗕𝘁 : 𝗟𝗲𝗴𝗮𝗰𝘆 𝗕𝗼𝘁
+*𝗡𝗼𝘁𝗲:* 𝗝𝗮𝗻𝗴𝗮𝗻 𝘀𝗮𝗹𝗮𝗵 𝗴𝘂𝗻𝗮𝗸𝗮𝗻 𝗳𝗶𝘁𝘂𝗿 𝗯𝘂𝗴 𝗯𝗼𝘁 𝗶𝗻𝗶
 
-*Note:* Gunakan lah Bug Botz ini Dengan orang yang bersalah `
+*𝗡𝗼𝘁𝗲:* 𝗚𝘂𝗻𝗮𝗸𝗮𝗻𝗹𝗮𝗵 𝗳𝗶𝘁𝘂𝗿 𝗯𝘂𝗴 𝗯𝗼𝘁 𝗶𝗻𝗶 𝘂𝗻𝘁𝘂𝗸 𝗼𝗿𝗮𝗻𝗴 𝘆𝗮𝗻𝗴 𝗯𝗲𝗿𝘀𝗮𝗹𝗮𝗵 `
 conn.send2ButtonImg(m.chat, imgr + 'Bug Menu', zyko, bug + '\n\n' + botdate + '\n\n' + wm, em.getRandom() + ' Menu', '.menu', em.getRandom() + 'Owner', '.owner',  fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-  mediaUrl: 'https://instagram.com/lisaamelia8680',
+  mediaUrl: 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg',
   mediaType: 2, 
   description: sgc,
-  title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+  title: "𝗝𝗼𝗶𝗻 𝗞𝘂𝘆",
   body: wm2,
   thumbnail: fs.readFileSync('./thumbnail.jpg'),
   sourceUrl: sig, 

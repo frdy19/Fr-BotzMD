@@ -24,8 +24,8 @@ ${wm}`
 let t = '*I N T R O*'
 let wibu = `https://api.zahwazein.xyz/randomanime/anime?apikey=85345ee3d9de` 
 let thumb = await(await fetch(zykomd)).buffer()
-conn.sendHydrated2(m.chat, t, cap, thumb, 'https://instagram.com/kabulsaputra21', 'ɪ ɴ s ᴛ ᴀ ɢ ʀ ᴀ ᴍ', 'https://youtube.com/zykobotz', 'ʏ ᴏ ᴜ ᴛ ᴜ ʙ ᴇ',[['Menu', `.menuv2`],
-  ['Donasi', `.donasi`],['Sewa', `.sewa`]], m)   
+conn.sendHydrated2(m.chat, t, cap, thumb, 'https://chat.whatsapp.com/FQH6CI63LJCBTySzClHrrg', 'ɢ ʀ ᴜ ᴘ ʙ ᴏ ᴛ', 'https://wa.me/62823504965328', 'ᴅ ᴇ ᴠ ᴇ ʟ ᴏ ᴘ ᴇ ʀ',[['ᴍᴇɴʜ', `.menuv2`],
+  ['ᴅᴏɴᴀᴛᴇ', `.donasi`],['sᴇᴡᴀ', `.sewa`]], m)   
 }
 handler.command = /^(intro)$/i
 
